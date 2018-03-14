@@ -1,0 +1,187 @@
+
+
+  .aboutus{
+    font-family: 'Pattaya', sans-serif;
+    color:#1979D2 ;
+    font-size: 110px;
+    text-shadow: 0 1px 0 white,
+               0 2px 0 white,
+               0 3px 0 white,
+               0 4px 0 white,
+               0 5px 0 white,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+     
+  }
+html {
+ min-height: 100%;
+}
+  
+  body {
+    background: linear-gradient(grey, #424242 95%);
+  }
+  
+  ul.task-bar a{
+    font-family: 'Cormorant Infant', serif;
+    text-align: center;
+    margin:0;
+    display: inline;
+    width: 300px;
+   
+  }
+  
+  .task-bar li{
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid #1979D2;
+    word-spacing: 0px;
+    list-style-type: none;
+    padding: 3px;
+    font-size: 3.5vw;
+    text-align: center;
+    position: horizontal;
+    margin: 20px 0 0;
+    padding: 10px 10px 10px 10px;
+   
+   
+  }
+  
+
+  .cover {
+   padding-top: 50px;
+   width: 750px;
+   height: 750px;
+   
+} 
+
+  .aboutustext {
+   font-size: 1.8vw;
+   color: white;
+   font-family: 'Cormorant Infant', serif;
+   text-indent: 2.0em;  
+   text-align: center; 
+   margin-right: 2.5vw;
+   margin-left: 2.5vw;
+  }
+  .family {
+    font-family:'Cormorant Infant', serif;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    
+  }
+  
+ 
+
+
+/* Home hover-link---*/
+
+  .home:link {
+    background-color: none;
+  }
+  
+  
+  .home:hover {
+    background: linear-gradient(#1979D2 30%, darkblue);
+
+/* Aboutus hover-link---*/
+    
+  }
+  .about-us:link {
+    background-color: none;
+  }
+  
+  
+  .about-us:hover {
+    background: linear-gradient(#1979D2 30%, darkblue);
+    
+  }
+  
+ 
+/* Whyus hover-link---*/
+
+  .whyus:link {
+    background-color: none;
+  }
+  
+  
+  .whyus:hover {
+    background: linear-gradient(#1979D2 30%, darkblue);
+  }
+  
+
+/* Pricing hover-link---*/
+
+  .pricing:link {
+    background-color: none;
+  }
+  
+  
+  .pricing:hover {
+    background: linear-gradient(#1979D2 30%, darkblue);
+  }
+    
+/* Contactus hover-link---*/
+
+  .contactus:link {
+    background-color: none;
+  }
+  
+  
+  .contactus:hover {
+    background: linear-gradient(#1979D2 30%, darkblue);
+  }
+  
+/* More hover-link---*/
+
+  .more:link {
+    background-color: none;
+  }
+  
+  
+  .more:hover {
+    background: linear-gradient(#1979D2 30%, darkblue);
+  }
+  
+img {
+   display: inline-block;
+   margin-left: auto;
+   
+}
+
+
+
+/*media----*/
+
+
+@media all (max-width: 100%) {
+  .aboutustext {
+   color: white;
+   font-family: 'Cormorant Infant', serif;
+   text-indent: 2.0em;  
+   margin-left: 100%;
+   margin-right: 100%;
+   text-align: center;
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
